@@ -31,8 +31,8 @@ These objects hold the data alongside the associated metadata in order to perfor
 In the case of \code{Map}, a World Coordinate System \citep[WCS, e.g.,][]{greisen_representations_2002} is also constructed from the associated metadata to enable easy mapping between pixel and world coordinates via \astropypkg.
 \added[id=WTB]{In nearly all cases, solar image data is stored in the FITS format }\citep{wells_fits_1981} \added[id=WTB]{which has an accompanying well-defined metadata standard} \citep{pence_definition_2010}.
 \added[id=WTB]{The accompanying metadata for each \code{Map} object adheres to this standard.
-Solar time series data, however, do not have a standard metadata or file format and may be stored in a variety of file formats, including FITS, netCDF, JSON, or plain text.}
-\added[id=NF]{As such, the metadata associated with each \code{TimeSeries} object is much more sparse compared to \code{Map}, but at minimum will include the time of each observation as well as the associated instrument that made the observation.}
+Solar time series data, however, do not have a standard metadata or file format and are stored in a variety of file formats, including FITS, netCDF, JSON, or plain text.}
+\added[id=NF]{As such, the metadata associated with each \code{TimeSeries} object is much more sparse compared to \code{Map}, but at minimum will include the time of each observation as well as some information about the associated instrument that made the observation.}
 
 Additionally, by extending the \astropypkg coordinates framework \citep[see Section 3.3 of][for more details]{the_astropy_collaboration_astropy_2018}, \sunpypkg provides definitions of, and transformations between, common solar coordinate systems.
 Coordinates expressed using these frames can be used to represent the positional information of solar features and events. \sunpypkg implements both observer-dependent (e.g., \hpc) and observer-independent (e.g., \hgs) coordinate frames \citep{thompson_coordinate_2006}.
