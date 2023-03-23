@@ -4,6 +4,4 @@ Repository containing text and scripts for producing the SunPy paper submitted t
 
 ## Published Version
 
-## Scope
-
-## Build
+The final version can be found here: https://www.frontiersin.org/articles/10.3389/fspas.2023.1076726/full
